@@ -1,0 +1,38 @@
+{
+  "name": "privazy_frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@aztec/accounts": "5.2.0-nightly.20260815",
+    "@aztec/aztec.js": "5.2.0-nightly.20260815",
+    "@aztec/constants": "5.2.0-nightly.20260815",
+    "@aztec/entrypoints": "5.2.0-nightly.20260815",
+    "@aztec/foundation": "5.2.0-nightly.20260815",
+    "@aztec/kv-store": "5.2.0-nightly.20260815",
+    "@aztec/noir-contracts.js": "5.2.0-nightly.20260815",
+    "@aztec/pxe": "5.2.0-nightly.20260815",
+    "@aztec/stdlib": "5.2.0-nightly.20260815",
+    "@aztec/wallet-sdk": "5.2.0-nightly.20260815",
+    "@aztec/wallets": "5.2.0-nightly.20260815",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "vite-plugin-node-polyfills": "^0.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "oxlint": "^1.75.0",
+    "tsx": "^4.23.11",
+    "typescript": "~6.0.2",
+    "vite": "^6.0.0"
+  }
+}

@@ -1,0 +1,3 @@
+target/*
+!target/privazy_contract-PrivAZy.json
+codegenCache.json

@@ -1,0 +1,2 @@
+[workspace]
+members = ["privazy_contract", "privazy_test"]
